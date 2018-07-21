@@ -1,0 +1,253 @@
+ В этом файле вы пишете css код вашего приложения */
+
+ html{
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f1f3f5;
+}
+
+.container {
+  max-width: 1240px;
+  width: calc(100% - 40px);
+  padding: 0 20px;
+  margin: 0 auto;
+  padding-bottom: 45px;
+
+
+}
+
+/* header */
+
+.header {
+  background: url('/assets/img/bg.jpg') bottom center / cover no-repeat;
+  display: flex;
+  flex: 0 0 300px;
+  margin-bottom: 60px;
+}
+
+.header-title {
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+
+.header-logo {
+  transform: translateX(60px);
+  margin-bottom: 35px;
+}
+
+.header-title__main {
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.header-title__add {
+  margin-top: 0;
+
+}
+.header-title__add h3 {
+  font-weight: 400;
+  font-size: 16px;
+  
+}
+
+/* end header */
+
+
+
+
+/* articles-list */
+.articles-list {
+  width: 100%;
+  height: 925px;
+  margin: 0 auto;
+  background-color: #fff;
+  width: calc(100% - 40px);
+  padding-bottom: 43px;
+
+}
+.
+.articles {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  min-width: 840px;
+  height: 925px;
+  margin: 0;
+  padding: 0 40px 40px;
+}
+
+.articles-list .img {
+ width: 100%;
+
+}
+
+.articles-list h1 {
+  font-family: Spectral, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 27px;
+}
+
+.articles-list h2 {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  margin: 27px;
+  margin: 27px;
+}
+
+.articles-list h2 span {
+  color: #b1b1b1;
+  font-size: 12px;
+  font-weight: 500;
+
+}
+.articles-list p {
+  margin: 27px;
+  font-weight: 600;
+  font-size: 16px;
+}
+/* end articles-list */
+
+
+
+
+/* sidebar */
+
+/*.sidebar {
+  flex: 0 0 26.66666666666667%;
+  }*/
+
+  .sidebar {
+    width: calc(100% - 40px);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+  }
+
+  .sidebar-item {
+    margin-bottom: 55px;
+  }
+
+  .sidebar-item__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .sidebar-item__title .delimiter {
+    flex: 1;
+    margin: 0 10px;
+    height: 2px;
+    background-color: #8c8d8e;
+  }
+
+  .sidebar-item__title .title {
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .sidebar-item__title .icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .sidebar-item__label {
+    font-weight: 700;
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #262626;
+    transition: all 0.25s;
+    text-decoration: none;
+  }
+
+  .sidebar-item__label:hover {
+    background-color: #8c8d8e;
+  }
+  /* end sidebar */
+
+
+
+
+  /* footer */
+
+  .footer {
+    flex: 0 0 120px;
+    line-height: 120px;
+    display: flex;
+    background-color: #262626;
+    color: white;
+    font-size: 14px;
+  }
+
+  .footer-logo {
+    flex: 0 0 120px;
+    display: flex;
+    background-color: #000;
+  }
+
+  .footer-logo__pic {
+    margin: auto;
+    width: 38px;
+    height: 44px;
+  }
+
+  .footer-main,
+  .footer-cr {
+    text-align: center;
+  }
+
+  .footer-main {
+    flex: 1;
+  }
+
+  .footer-cr {
+    flex: 0 0 200px;
+  }
+
+  /* end footer */
+
+  /*=============*/
+
+  #author_select{
+    background: #fff;
+    background-image: url(/assets/img/img4.jpg);
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 40px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: right;
+    cursor: pointer;
+    font-style: italic;
+  }
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 2px solid #b1b1b1;
+  }
+/*Roboto:400,400i,500,700|Spectral:400,600,700
